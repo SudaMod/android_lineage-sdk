@@ -32,8 +32,7 @@ public class LineageUpdatesPreference extends SelfRemovingPreference
     private static final String TAG = "LineageUpdatesPreference";
 
     private static final String UPDATER_PACKAGE_NAME = "org.lineageos.updater";
-    private static final String UPDATER_ACTIVITY_CLASS =
-            UPDATER_PACKAGE_NAME + ".UpdatesActivity";
+    private static final String UPDATER_ACTIVITY_CLASS = "com.cyanogenmod.updater.UpdatesActivity";
 
     public LineageUpdatesPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
